@@ -1,2 +1,7 @@
+const names = require("./script");
+const sayHi = require("./utiils");
+const data = require("./items");
+console.log(data);
 
-// sayHi(`Shikhar`);
+// console.log(names);
+sayHi(names.siddhant);  
